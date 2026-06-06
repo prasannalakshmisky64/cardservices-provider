@@ -13,6 +13,7 @@ import java.util.List;
 @Service
 @RequiredArgsConstructor
 public class CardServiceImpl implements CardService {
+    // Creates a new card and returns the saved card response
 
     private final CardRepository cardRepository;
 
@@ -78,4 +79,5 @@ public class CardServiceImpl implements CardService {
         return dto;
     }
 }
+
 
